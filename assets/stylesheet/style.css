@@ -175,11 +175,13 @@ input:focus .search {
 
 
 .maintopright {
-    width: 44.7%;
-    position: absolute;
+    width: 44.5%;
+    overflow: hidden;
     display: inline-block;
+    vertical-align: top;
     height: 540px;
     background-image: url("../media/food.webp");
+    background-position: 100%;
     background-size: cover;
 }
 
