@@ -446,10 +446,6 @@ input:focus .search {
     vertical-align: middle;
 }
 
-.social {
-    /* width: 204px; */
-}
-
 .social a {
     margin-left: 30px;
     text-decoration: none;
@@ -457,4 +453,8 @@ input:focus .search {
 
 .social a img {
     height: 24px;
+}
+
+.socialfoot img:hover {
+    transform: scale(1.1,1.1);
 }
