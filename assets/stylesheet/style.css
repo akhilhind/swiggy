@@ -181,7 +181,7 @@ input:focus .search {
     display: inline-block;
     vertical-align: top;
     height: 540px;
-    background-image: url("../media/food1.webp");
+    background-image: url("../media/food.webp");
     background-position: 100%;
     background-size: cover;
 }
@@ -197,7 +197,7 @@ input:focus .search {
 
 .content {
     display: flex;
-    /* width: 100%; */
+    width: 1200px;
     margin: 0 auto;
     height: 100%;
     padding-bottom: 80px;
