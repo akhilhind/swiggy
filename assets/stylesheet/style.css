@@ -5,54 +5,6 @@
     font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
 }
 
-@media(max-width:360px) {
-    * {
-        box-sizing: border-box;
-    }    
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #container {
-        width: 100%;
-        overflow: hidden;
-    }
-}
-
-@media screen and (min-width:361px) and (max-width:480px) {
-    * {
-        box-sizing: border-box;
-    }    
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #container {
-        width: 100%;
-        overflow: hidden;
-    }
-}
-
-@media screen and (min-width:481px) and (max-width:768px) {
-    * {
-        box-sizing: border-box;
-    }    
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #container {
-        width: 100%;
-        overflow: hidden;
-    }
-}
-
 .right {
     float: right;
 }
@@ -146,6 +98,14 @@ h2 {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:1200px) {
+    .maintopleft {
+        width: 45%;
+        margin-left: 5%;
+        padding-right: 0;
+    }
+}
+
 ._1envo {
     height: 125px;
     width: 200px;
@@ -193,7 +153,7 @@ h2 {
     
     ._1envo {
         position: absolute;
-        top: 25%;
+        top: 22%;
         transform: scale(1);
         left: -7%;
         padding: 0;
@@ -202,6 +162,18 @@ h2 {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+    ._1envo {
+        position: absolute;
+        top: 30%;
+        transform: scale(1);
+        left: -7%;
+        padding: 0;
+        height: 150px;
+        margin: 0;
+    }
+}
 
 .log {
     margin-top: 66px;
@@ -266,7 +238,7 @@ h2 {
 @media screen and (min-width:481px) and (max-width:768px) {
     .choice a {
         padding:5%;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 600;
     }
 }
@@ -331,6 +303,20 @@ h2 {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    .maintopleft h2 {
+        font-size: 22px;
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .maintopleft h2 {
+        font-size: 28px;
+        margin-top: 20%;
+    }
+}
+
 .maintopleft h3 {
     margin-top: 10px;
     font-size: 24px;
@@ -360,6 +346,22 @@ h2 {
 @media screen and (min-width:481px) and (max-width:768px) {
     .maintopleft h3 {
         font-size: 18px;
+        width: 100%;
+        margin: 3% 0% 0% 0%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .maintopleft h3 {
+        font-size: 18px;
+        width: 100%;
+        margin: 3% 0% 0% 0%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .maintopleft h3 {
+        font-size: 25px;
         width: 100%;
         margin: 3% 0% 0% 0%;
     }
@@ -430,6 +432,23 @@ h2 {
     }    
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    .search input {
+        width: 100%;
+        padding: 0px 20px 0px 10px;
+        font-size: 14px;
+    }    
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .search input {
+        width: 100%;
+        padding: 0px 20px 0px 10px;
+        height: 40px;
+        font-size: 18px;
+    }    
+}
+
 input[type="text"]:focus {
     outline: none;
 }
@@ -480,7 +499,6 @@ input:focus .search {
 
     .search a {
         position: absolute;
-        /* padding: 4% 3%; */
         height: 100%;
         margin: 0;
         right: 0px;
@@ -526,6 +544,44 @@ input:focus .search {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    .search span {
+        display: none;
+    }
+
+    .search input {
+        font-size: 14px;
+    }
+
+    .search a {
+        position: absolute;
+        padding: 5 5%;
+        height: 100%;
+        margin: 0;
+        right: 0px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .search span {
+        display: none;
+    }
+
+    .search input {
+        font-size: 12px;
+    }
+
+    .search a {
+        position: absolute;
+        padding: 3% 5%;
+        height: 100%;
+        margin: 0;
+        right: 0px;
+        font-size: 13px;
+    }
+}
+
 .deloca {
     width: 500px;
     margin-top: 30px;
@@ -553,8 +609,14 @@ input:focus .search {
 
 @media screen and (min-width:481px) and (max-width:768px) {
     .deloca {
-        width: 110%;
+        width: 100%;
         text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .deloca {
+        width: 100%;
     }
 }
 
@@ -588,6 +650,12 @@ input:focus .search {
         height: 90%;
         width: 100%;
         background-repeat: no-repeat;
+    }    
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .maintopright {
+        width: 45%;
     }    
 }
 
@@ -800,6 +868,93 @@ input:focus .search {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    .mainbottom {
+        padding: 0;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        padding-bottom: 2%;
+    }
+
+    .feat {
+        width: 20%;
+        height: 80%;
+    }
+
+    .image {
+        margin: 0;
+        height: 30%;
+    }
+
+    .image img {
+        width: 60%;
+        margin: 0;
+        height: auto;
+    }
+
+    .image .image3 {
+        display: block;
+        width: 75%;
+    }
+
+    .head {
+        width: 100%;
+        margin: 8% 0%;
+        font-size: 10px;
+    }
+
+    .details {
+        display: none;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .mainbottom {
+        padding: 0;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        padding-bottom: 2%;
+    }
+
+    .feat {
+        width: 20%;
+        height: 80%;
+    }
+
+    .image {
+        margin: 0;
+        height: 30%;
+    }
+
+    .image img {
+        width: 60%;
+        margin: 0;
+        height: auto;
+    }
+
+    .image .image3 {
+        display: block;
+        width: 75%;
+    }
+
+    .head {
+        width: 100%;
+        margin: 8% 0%;
+        font-size: 10px;
+    }
+}
 
 .stores {
     padding: 0px 20px;
@@ -917,6 +1072,89 @@ input:focus .search {
         right: -2%;
     }
 }
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .storecontent {
+        width: 100%;
+    }
+
+    .storecontent h3 {
+        width: 40%;
+        font-size: 30px;
+        padding-top: 10%;
+    }
+
+    .storecontent span {
+        width: 40%;
+    }
+
+    .storelink {
+        width: 50%;
+        padding-bottom: 20%;
+    }
+
+    .storelink img {
+        width: 35%;
+        margin-right: 2%;
+    }
+
+    .mobile {
+        height: 72%;
+        width: 35%;
+    }
+
+    .mobile1 {
+        right: 25%;
+    }
+
+    .mobile2 {
+        height: 72%;
+        width: 35%;
+        right: -4%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .storecontent {
+        width: 100%;
+    }
+
+    .storecontent h3 {
+        width: 40%;
+        font-size: 30px;
+        padding-top: 10%;
+    }
+
+    .storecontent span {
+        width: 40%;
+    }
+
+    .storelink {
+        width: 50%;
+        padding-bottom: 20%;
+    }
+
+    .storelink img {
+        width: 35%;
+        margin-right: 2%;
+    }
+
+    .mobile {
+        height: 72%;
+        width: 35%;
+    }
+
+    .mobile1 {
+        right: 25%;
+    }
+
+    .mobile2 {
+        height: 72%;
+        width: 35%;
+        right: -4%;
+    }
+}
+
 
 
 .cities {
@@ -1062,6 +1300,12 @@ input:focus .search {
     }    
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    .footer {
+        width: 100%;
+    }    
+}
+
 .footercontent {
     display: flex;
     max-width: 1200px;
@@ -1075,12 +1319,12 @@ input:focus .search {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
-    height: 250px;
+    padding-bottom: 5%;
     border-bottom: 1px solid #4d4d4d;
 }
 
 .topcontent {
-    min-width: 300px;
+    width: 300px;
     display: inline-block;
     height: 100%;   
     vertical-align: top;
@@ -1161,6 +1405,16 @@ input:focus .search {
 
     .footercontent {
         padding: 0;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .foottop {
+        width: 100%;
+    }
+    
+    .toplink img {
+        width: 25%;
     }
 }
 
