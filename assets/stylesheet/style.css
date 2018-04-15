@@ -193,7 +193,7 @@ h2 {
     
     ._1envo {
         position: absolute;
-        top: 35%;
+        top: 25%;
         transform: scale(1);
         left: -7%;
         padding: 0;
@@ -480,7 +480,8 @@ input:focus .search {
 
     .search a {
         position: absolute;
-        padding: 4% 3%;
+        /* padding: 4% 3%; */
+        height: 100%;
         margin: 0;
         right: 0px;
         font-size: 13px;
@@ -498,8 +499,9 @@ input:focus .search {
 
     .search a {
         position: absolute;
-        padding: 3% 3%;
+        padding: 3% 2%;
         margin: 0;
+        height: 100%;
         right: 0px;
         font-size: 13px;
     }
@@ -511,11 +513,12 @@ input:focus .search {
     }
 
     .search input {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .search a {
         position: absolute;
+        padding: 4% 5%;
         height: 100%;
         margin: 0;
         right: 0px;
@@ -1248,7 +1251,7 @@ input:focus .search {
     }
 
     .logo  {
-        width: 40%;
+        width: 30%;
         margin: 0 auto;
     }
 
